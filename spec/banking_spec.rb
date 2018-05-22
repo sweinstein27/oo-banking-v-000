@@ -48,6 +48,7 @@ describe "BankAccount" do
       @closed.status = "closed"
       expect(avi.valid?).to eq(true)
       expect(@broke.valid?).to eq(false)
+      binding.pry
       expect(@closed.valid?).to eq(false)
     end
   end
