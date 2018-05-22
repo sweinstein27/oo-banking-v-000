@@ -18,8 +18,8 @@ def display_balance
   return "Your balance is $#{self.balance}."
 end
 
-def self.valid?
-  if status = "open" && balance > 0
+def valid?
+  if self.status = "open" && self.balance > 0
     true
   else
     false
