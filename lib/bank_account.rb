@@ -22,5 +22,4 @@ def valid?
   else
     false
   end
-
 end
