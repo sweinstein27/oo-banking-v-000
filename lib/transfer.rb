@@ -24,6 +24,8 @@ class Transfer
     elsif !valid?
       self.status = "rejected"
       return "Transaction rejected. Please check your account balance."
+    else 
+      nil
     end
   end
 
