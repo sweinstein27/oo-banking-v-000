@@ -22,6 +22,7 @@ def valid?
   else
     false
   end
+  binding.pry
 end
 
 end
