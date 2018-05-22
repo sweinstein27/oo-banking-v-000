@@ -19,12 +19,11 @@ def display_balance
 end
 
 def valid?
-  if status = "open" && balance > 0
-    true
-  else
+  if status = "closed" && balance < 0
     false
+  else
+    true
   end
-  binding.pry
 end
 
 end
