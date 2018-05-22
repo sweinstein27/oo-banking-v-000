@@ -19,10 +19,10 @@ def display_balance
 end
 
 def valid?
-  if self.status = "closed" && self.balance < 0
-    false
+  if self.status = "open" && balance > 0
+    return true
   else
-    true
+    false
   end
 end
 
