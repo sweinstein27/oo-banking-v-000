@@ -20,10 +20,8 @@ end
 
 def valid?
   if status = "open" && balance > 0
-    binding.pry
     true
   else
-    binding.pry
     false
   end
 end
