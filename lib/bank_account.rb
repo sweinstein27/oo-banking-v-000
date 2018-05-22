@@ -19,7 +19,8 @@ end
 def valid?
   if staus = "open" && balance > 0
     true
-  else 
+  else
     false
+  end
 
 end
